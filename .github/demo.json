@@ -1,0 +1,74 @@
+{
+  "title": "window-zoom",
+  "description": "The highlighted zoom percentage shows a temporary window scale.",
+  "recordedOn": "2026-11-05",
+  "sourceRevision": null,
+  "themeSourceRevision": "6e7e9f93cc5b0612b4631e06d0b80e5ca88a7302",
+  "mode": "normal",
+  "fontSettings": "default",
+  "scenario": "demo.js",
+  "recipeHash": "f200a4ead8d998afd8331293d2259d720f2536000b16ae30f56becd3142b4cc1",
+  "environment": {
+    "platform": "win32",
+    "arch": "x64",
+    "electron": "45.2.3",
+    "chrome": "156.0.8078.80",
+    "devicePixelRatio": 1,
+    "locale": "en-GB",
+    "fontFamily": "Fira Code, Menlo, DejaVu Sans Mono, Consolas, monospace",
+    "fontSize": 14,
+    "themes": ["one-day-syntax", "one-day-ui"]
+  },
+  "viewport": { "width": 1100, "height": 720 },
+  "cornerRadius": 10,
+  "privacy": { "version": 1, "location": "neutral", "textChecked": true },
+  "sources": {
+    "editor": {
+      "revision": "43be39f3b24d224195be5e69dce7fa41f252b605",
+      "dirty": true,
+      "workingTreeHash": "7e8484ad6b7f0f553301690b961d8d3c074c37911bee03093c32e500a64db4ac"
+    },
+    "package": {
+      "revision": null,
+      "dirty": true,
+      "workingTreeHash": "3169f0cd1fb8ff3b79bdf2ac8c645bb1068e21052d207049ae3877775e06b605"
+    },
+    "window-zoom": {
+      "revision": null,
+      "dirty": true,
+      "workingTreeHash": "3169f0cd1fb8ff3b79bdf2ac8c645bb1068e21052d207049ae3877775e06b605"
+    },
+    "one-theme": {
+      "revision": "6e7e9f93cc5b0612b4631e06d0b80e5ca88a7302",
+      "dirty": false,
+      "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    "status-bar": {
+      "revision": "be6eb0adfae9c5cafe6175d40f66e33809890437",
+      "dirty": true,
+      "workingTreeHash": "c66baf7ef0d5482e3e3c9e875e648e3d11550ed38eb36f44a9994cf7082089e5"
+    }
+  },
+  "fixtures": [
+    {
+      "file": "zoom.js",
+      "sha256": "767dcdf1723092c86aabd476a6cb7a611383982ead6d3256fe2269645eaec1ec"
+    }
+  ],
+  "images": [
+    {
+      "file": "demo.png",
+      "label": "The highlighted zoom percentage shows a temporary window scale.",
+      "width": 1100,
+      "height": 720,
+      "sha256": "8722ee5a20441f618fe913b6b5f4988d079c98cea83d9412ace206d7a9fd13bb"
+    },
+    {
+      "file": "demo-menu.png",
+      "label": "Use the context menu to control zoom or save the current scale as the default.",
+      "width": 1100,
+      "height": 720,
+      "sha256": "b27cedc834ddcca0d49ca404bc18c2310996d4dcf08a1bc5709a910f2459d662"
+    }
+  ]
+}

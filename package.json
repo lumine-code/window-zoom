@@ -1,0 +1,66 @@
+{
+  "name": "window-zoom",
+  "author": "lumine-code",
+  "version": "1.0.0",
+  "description": "Show the current window zoom when it differs from the default.",
+  "keywords": [
+    "magnification",
+    "scaling",
+    "status-bar",
+    "accessibility"
+  ],
+  "repository": "https://github.com/lumine-code/window-zoom",
+  "bugs": {
+    "url": "https://github.com/lumine-code/window-zoom/issues"
+  },
+  "license": "MIT",
+  "main": "./lib/main",
+  "files": [
+    "lib",
+    "spec",
+    "styles",
+    ".github/demo.png",
+    ".github/demo-menu.png",
+    ".github/demo.json",
+    "LICENSE"
+  ],
+  "engines": {
+    "lumine": "^1.0.0"
+  },
+  "scripts": {
+    "test": "lumine --test spec",
+    "lint": "eslint . --max-warnings 0",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "configSchema": {
+    "hideWhenDefault": {
+      "title": "Hide When Default",
+      "description": "Hide the status bar indicator when this window uses the configured default zoom.",
+      "type": "boolean",
+      "default": true
+    }
+  },
+  "providedServices": {
+    "background-tips.provider": {
+      "versions": {
+        "1.0.0": "provideBackgroundTips"
+      }
+    }
+  },
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^2.0.0": "consumeStatusBar"
+      }
+    }
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.14.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-n": "^18.5.0",
+    "globals": "^17.14.0",
+    "prettier": "^3.9.10"
+  }
+}
