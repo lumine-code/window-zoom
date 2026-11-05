@@ -6,7 +6,7 @@ Show the current window zoom when it differs from the default.
 
 - **Zoom indicator**: displays the current window scale as a percentage in the status bar.
 - **Conditional visibility**: hides at the configured default zoom unless you choose to keep it visible.
-- **Highlighted tile**: uses the current theme's accent colors to make a temporary zoom easy to notice.
+- **Highlighted tile**: shares the theme's accent button colors and interaction feedback.
 - **Quick reset**: click the indicator to restore the configured default for the current window.
 - **Window controls**: right-click the indicator to zoom in, zoom out, or reset the current window.
 - **Saved default**: choose Set as Default in the context menu to store the current scale as the shared default for all windows.
