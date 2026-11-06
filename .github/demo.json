@@ -1,9 +1,9 @@
 {
   "title": "window-zoom",
   "description": "The highlighted zoom percentage shows a temporary window scale.",
-  "recordedOn": "2026-11-05",
-  "sourceRevision": "b1abdde06dc9f2f6e7aa655300f871a273486a6d",
-  "themeSourceRevision": "6e7e9f93cc5b0612b4631e06d0b80e5ca88a7302",
+  "recordedOn": "2026-11-06",
+  "sourceRevision": "c05f46e1a72d783f9e5abaee58f057bd3f3b59a5",
+  "themeSourceRevision": "f47faec906258c7f474226698178da4bf8af98be",
   "mode": "normal",
   "fontSettings": "default",
   "scenario": "demo.js",
@@ -24,27 +24,27 @@
   "privacy": { "version": 1, "location": "neutral", "textChecked": true },
   "sources": {
     "editor": {
-      "revision": "753b3f9fc8119376d2ed2480228f2930278151d6",
+      "revision": "097acbcd07bed1e801f91b3ce9c691fc6df33f2c",
       "dirty": false,
       "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     },
     "package": {
-      "revision": "b1abdde06dc9f2f6e7aa655300f871a273486a6d",
+      "revision": "c05f46e1a72d783f9e5abaee58f057bd3f3b59a5",
       "dirty": false,
       "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     },
     "window-zoom": {
-      "revision": "b1abdde06dc9f2f6e7aa655300f871a273486a6d",
+      "revision": "c05f46e1a72d783f9e5abaee58f057bd3f3b59a5",
       "dirty": false,
       "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     },
     "one-theme": {
-      "revision": "6e7e9f93cc5b0612b4631e06d0b80e5ca88a7302",
+      "revision": "f47faec906258c7f474226698178da4bf8af98be",
       "dirty": false,
       "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     },
     "status-bar": {
-      "revision": "ed0a20a072c74bba534cd8734981ba4ef5cd0a66",
+      "revision": "e33a029d7e9203cd0a54ce769be9a760eaef1408",
       "dirty": false,
       "workingTreeHash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
     }
@@ -61,14 +61,14 @@
       "label": "The highlighted zoom percentage shows a temporary window scale.",
       "width": 1100,
       "height": 720,
-      "sha256": "8722ee5a20441f618fe913b6b5f4988d079c98cea83d9412ace206d7a9fd13bb"
+      "sha256": "d291001848d93f47dd61d9c9b5dd2bdef439f9caaa7436363629cae33aeabe02"
     },
     {
       "file": "demo-menu.png",
       "label": "Use the context menu to control zoom or save the current scale as the default.",
       "width": 1100,
       "height": 720,
-      "sha256": "b27cedc834ddcca0d49ca404bc18c2310996d4dcf08a1bc5709a910f2459d662"
+      "sha256": "f8ed13770c620a6e517ce19591e551953f8cce1dbabf6afdf9e46784e2184577"
     }
   ]
 }
